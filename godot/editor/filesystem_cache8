@@ -1,0 +1,11 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1713306697
+icon.svg::CompressedTexture2D::6692734227164619609::1713017968::1713017981::1::::<><>::
+::res://Fluid-Sim/::1713306067
+::res://scenes/::1713268363
+drop.tscn::PackedScene::5062899221153109118::1713268337::0::1::::<><>::uid://lyr6a7fs3lio::::res://textures/smile.png
+main.tscn::PackedScene::4675362826616737425::1713268363::0::1::::<><>::res://scripts/main.cs
+::res://scripts/::1713268152
+main.cs::CSharpScript::-1::1713268316::0::1::::<>Node2D<>::
+::res://textures/::1713268163
+smile.png::CompressedTexture2D::822709944289958506::1521599126::1713268163::1::::<><>::
