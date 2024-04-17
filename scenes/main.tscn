@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://b7u1splktiyyr"]
+
+[ext_resource type="Script" path="res://scripts/main.cs" id="1_xft2s"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4n3y3"]
+size = Vector2(90.2215, 6.87548)
+
+[node name="Main" type="Node2D"]
+position = Vector2(1, 0)
+script = ExtResource("1_xft2s")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="floor" type="RigidBody2D" parent="."]
+freeze = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="floor"]
+position = Vector2(7, 258)
+scale = Vector2(21.97, 22.7797)
+shape = SubResource("RectangleShape2D_4n3y3")
